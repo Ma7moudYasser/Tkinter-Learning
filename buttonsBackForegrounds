@@ -1,0 +1,15 @@
+from tkinter import *
+
+
+pro = Tk()
+pro.geometry('300x300')
+bt1 = Button(pro, text= 'button1')
+bt1.pack()
+
+
+bt2= Button(pro, text = 'button2', activebackground = 'black', activeforeground = 'white')
+bt2.pack()
+
+
+
+pro.mainloop()
